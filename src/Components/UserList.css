@@ -1,0 +1,94 @@
+.user-list-container {
+    text-align: center;
+    background-color: #FFB4C2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+
+}
+
+.controls {
+     
+}
+.searchbtn{
+    border-radius: 10px;
+    background-color: azure;
+}
+ 
+.sortbtn{
+    border-radius: 10px;
+    background-color: antiquewhite;;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-history {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.search-history ul {
+    
+    list-style: none;
+    padding: 0;
+}
+.searchItem{
+    cursor:pointer;
+    font-size: 16px;
+}
+ 
+.history{
+
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items:center;
+    background: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.history button{
+    border-radius: 10px;   
+    padding: 10px;
+    margin-right: 0px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+ 
+input{
+    background-color: #F5F7F8;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    background: #37B7C3;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
