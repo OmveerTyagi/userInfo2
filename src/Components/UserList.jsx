@@ -4,7 +4,7 @@ import './UserList.css';
 const UserList = () => {
     let h = JSON.parse(localStorage.getItem('searchHistory'))
     const [users, setUsers] = useState([]);
-    const [searchTerm, setSearchTerm] = useState(h[(h?.length-1)]||'');
+    const [searchTerm, setSearchTerm] = useState(h?.length>0?h[(h?.length-1)]:'');
     const [searchHistory, setSearchHistory] = useState(
         JSON.parse(localStorage.getItem('searchHistory')) || []
     );
